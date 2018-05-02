@@ -1,0 +1,92 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-font-color: #333;
+$sub-heading-color: #459f45;
+
+$side-bg-color: #414439;
+$side-font-color: #fefefe;
+
+$main-bg-color: #fefefe;
+$main-font-color: #414439;
+
+$side-items-font-size: 10pt;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-font-color;
+}
+
+.primary{
+	color: $primary-font-color;
+}
+
+.sub_heading{
+	color: $sub-heading-color
+}
+.uppercase{
+	text-transform: uppercase;
+}
+
+.title_bg{
+	background: #ffffff;  /* for old browsers */
+	background: -webkit-linear-gradient(to right, #ffffff, #098012);  
+	background: linear-gradient(to right, #ffffff, #098012);
+
+	padding: 35px;
+
+}
+.user_meta{
+	background: $side-bg-color;
+	color: $side-font-color;
+}
+
+.user_main{
+	background: $main-bg-color;
+	color: $main-font-color;
+}
+
+button.adjusted_icon_btn.md-button{
+	background: $sub-heading-color;
+    color: $side-font-color;
+}
+.pill{
+	color: $sub-heading-color;
+	margin-right: 10px;
+}
+
+.pill_blank{
+	
+	color: $side-font-color;
+	margin-right: 10px;
+
+}
+.side_items{
+	font-size: $side-items-font-size;
+	border-bottom: solid 1px $sub-heading-color;
+}
+
+.skills, .ref{
+	list-style:none;
+	line-height: 22pt;
+	min-height: 100px;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.min150{
+	min-height:150px;
+}
+
+.grey_line{
+	height:1px;
+	border-bottom:1px solid #dad7d7;
+}
+.exp{
+	min-height:150px;
+}
+.edu{
+	min-height: 80px;
+    border-bottom: 1px solid #dad7d7;
+    padding: 10px;
+}

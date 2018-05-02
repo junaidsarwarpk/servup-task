@@ -1,0 +1,86 @@
+<div class="item_container side_items">
+
+	<h3 class="uppercase">Skills</h3>
+
+	<h6 class="sub_heading uppercase"> <b> Professional Skills </b> </h6>
+
+ 	<ul class="skills">
+ 		<li>
+ 		<span class="col-sm-6"> Javascript  </span>
+ 		<span class="col-sm-6 text-right">
+ 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.professional.javascript) track by $index"> </i>
+
+ 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.professional.javascript) track by $index">
+
+ 		</i>
+ 		</span>
+ 		</li>
+
+ 		<li>
+ 		<span class="col-sm-6"> HTML  </span>
+ 		<span class="col-sm-6 text-right">
+ 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.professional.html) track by $index"> </i>
+
+ 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.professional.html) track by $index">
+
+ 		</i>
+ 		
+    	</span>
+		</li>
+
+		<li>
+	 		<span class="col-sm-6"> PHP  </span>
+	 		<span class="col-sm-6 text-right">
+	 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.professional.php) track by $index"> </i>
+
+	 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.professional.php) track by $index">
+
+	 		</i>
+	 		
+	    	</span>
+		</li>													
+ 	
+ 	</ul>
+
+
+ 	<h6 class="sub_heading uppercase"> <b> Personal Skills </b> </h6>
+
+ 	<ul class="skills">
+ 		<li>
+ 		<span class="col-sm-6"> Creativity  </span>
+ 		<span class="col-sm-6 text-right">
+ 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.personal.creativity) track by $index"> </i>
+
+ 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.personal.creativity) track by $index">
+
+ 		</i>
+ 		</span>
+ 		</li>
+
+ 		<li>
+ 		<span class="col-sm-6"> Leadership  </span>
+ 		<span class="col-sm-6 text-right">
+ 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.personal.leadership) track by $index"> </i>
+
+ 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.personal.leadership) track by $index">
+
+ 		</i>
+ 		</span>
+ 		</li>
+
+ 		<li>
+ 		<span class="col-sm-6"> Organization  </span>
+ 		<span class="col-sm-6 text-right">
+ 		<i class="fa fa-circle pill" ng-repeat="i in skillCtrl.getCount(skillCtrl.user_data.skills.personal.organization) track by $index"> </i>
+
+ 		<i class="fa fa-circle pill_blank" ng-repeat="i in skillCtrl.getRemaining(skillCtrl.user_data.skills.personal.organization) track by $index">
+
+ 		</i>
+ 		</span>
+ 		</li>	
+
+
+ 	
+ 	</ul>
+
+</div>

@@ -1,0 +1,23 @@
+<h3 class="uppercase"> Professional Experience </h3>
+	<div class="grey_line"></div>
+<div ng-repeat="exp in experienceCtrl.user_data.experience" class="exp">
+	
+<b>
+<div class="col-sm-6"> <h5 class="sub_heading uppercase"> {{exp.company_name}} </h5> </div>
+<div class="col-sm-6 text-right"> <h5 class="sub_heading"> {{exp.duration}} </h5> </div>
+</b>
+<div class="col-sm-12">
+	
+	<h4> {{exp.position}} </h4>
+
+</div>
+
+<div class="col-sm-12">
+	
+	<h5> {{exp.brief}} </h5>
+
+</div>
+<div class="grey_line"></div>
+</div>
+
+<div class="grey_line"></div>
